@@ -1,0 +1,70 @@
+body {
+    font-family: 'Uncial Antiqua', serif;
+    background: url('https://www.publicdomainpictures.net/pictures/40000/velka/parchment-paper-1364130792lJn.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2c1b0e;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .game-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h1, h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #7a4b1f;
+  }
+  
+  .dice-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .dice {
+    background: #ddb892;
+    border: 2px solid #7a4b1f;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .dice.kept {
+    background: #bfa05b;
+    color: #444;
+  }
+  
+  .dice:hover {
+    background: #bfa05b;
+    transform: translateY(-2px);
+  }
+  
+  .medieval-button {
+    background: #7a4b1f;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin: 10px;
+  }
+  
+  .medieval-button:hover {
+    background: #5b3714;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #3a2e1f;
+  }
+  

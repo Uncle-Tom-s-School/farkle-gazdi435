@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+    font-family: 'Garamond', serif;
+    background-color: #f0e6d6; /* Light beige background for parchment feel */
+    color: #3b2e1a; /* Dark brown text color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Game container */
+  .game-container {
+    background: url('path/to/stone_texture.jpg') no-repeat center center;
+    background-size: cover;
+    border: 8px solid #5b4e3e; /* Dark brown border */
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+    text-shadow: 1px 1px 2px #000; /* Slight shadow for depth */
+  }
+  
+  /* Turn and score information */
+  h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  /* Dice buttons */
+  .dice-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .dice {
+    background: url('path/to/wood_texture.jpg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #7b5b3b; /* Wooden color */
+    border-radius: 10px;
+    color: #fff; /* White text for contrast */
+    font-size: 1.5em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .dice:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .dice.kept {
+    background: url('path/to/stone_texture.jpg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid #d6d6d6; /* Lighter border for kept dice */
+  }
+  
+  /* Buttons */
+  .medieval-button {
+    background: #8b5a2b; /* Brownish color */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+  }
+  
+  .medieval-button:hover {
+    background-color: #6f4c3e; /* Darker brown on hover */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .dice-container {
+      flex-direction: column;
+    }
+  
+    .dice {
+      margin: 5px 0;
+      width: 100%;
+    }
+  }
+  
